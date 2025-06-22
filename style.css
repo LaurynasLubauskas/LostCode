@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 :root{
-  --color-1: #0f1016;
+  --color-1: #000000;
   --text-color: #ffffff;
   --accent-color: #2d2d2d;
 }
@@ -87,4 +87,13 @@ nav a{
   left: 0;
   z-index: 9;
 }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+.top-half{
+  flex: 1;
+  background-color: #000000;
 }
